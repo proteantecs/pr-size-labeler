@@ -28,15 +28,15 @@ labeler::label_for() {
   local -r l_max_size="$5"
 
   if [ "$total_modifications" -lt "$xs_max_size" ]; then
-    label="size/xs"
+    label="Super_Easy"
   elif [ "$total_modifications" -lt "$s_max_size" ]; then
-    label="size/s"
+    label="Easy"
   elif [ "$total_modifications" -lt "$m_max_size" ]; then
-    label="size/m"
+    label="Bearable"
   elif [ "$total_modifications" -lt "$l_max_size" ]; then
-    label="size/l"
+    label="Mind Blowing"
   else
-    label="size/xl"
+    label="Mind Blowing"
   fi
 
   echo "$label"
