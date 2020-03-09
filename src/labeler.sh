@@ -36,7 +36,7 @@ labeler::label_for() {
   elif [ "$total_modifications" -lt "$l_max_size" ]; then
     label="Mind Blowing"
   else
-    label="Mind Blowing"
+    label="Mind Blowing-WOW"
   fi
 
   echo "$label"
